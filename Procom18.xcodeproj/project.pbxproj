@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		467DD21FA788A943F618A109 /* Pods_Procom18.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567CEA13C3E1EE0520B0F076 /* Pods_Procom18.framework */; };
+		CE17FBBB210CDB43007DFA0D /* OurTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17FBBA210CDB43007DFA0D /* OurTeamVC.swift */; };
+		CE17FBBD210CDDF6007DFA0D /* teamViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17FBBC210CDDF6007DFA0D /* teamViewCell.swift */; };
+		CE17FBBF210CF23C007DFA0D /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17FBBE210CF23C007DFA0D /* ContactUsVC.swift */; };
+		CE86C83B210E352700B15CE3 /* CompetitionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86C83A210E352700B15CE3 /* CompetitionsVC.swift */; };
+		CE86C83D210E354600B15CE3 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86C83C210E354600B15CE3 /* MoreVC.swift */; };
+		CE86C83F210E3AE500B15CE3 /* CompetitionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86C83E210E3AE500B15CE3 /* CompetitionViewCell.swift */; };
 		CE88535D210CC71800035DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88535C210CC71800035DF6 /* AppDelegate.swift */; };
 		CE88535F210CC71800035DF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88535E210CC71800035DF6 /* ViewController.swift */; };
 		CE885362210CC71900035DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE885360210CC71900035DF6 /* Main.storyboard */; };
 		CE885364210CC71900035DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE885363210CC71900035DF6 /* Assets.xcassets */; };
 		CE885367210CC71900035DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE885365210CC71900035DF6 /* LaunchScreen.storyboard */; };
+		CEDB4C392111F9C3007D859A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEDB4C382111F9C2007D859A /* GoogleService-Info.plist */; };
+		CEFC6CE1210E3DC100B2FDCD /* MoreViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC6CE0210E3DC100B2FDCD /* MoreViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		567CEA13C3E1EE0520B0F076 /* Pods_Procom18.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Procom18.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		625D2264128A381558C5590C /* Pods-Procom18.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procom18.release.xcconfig"; path = "Pods/Target Support Files/Pods-Procom18/Pods-Procom18.release.xcconfig"; sourceTree = "<group>"; };
+		8416C251CBDAF626DE644C81 /* Pods-Procom18.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procom18.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Procom18/Pods-Procom18.debug.xcconfig"; sourceTree = "<group>"; };
+		CE17FBBA210CDB43007DFA0D /* OurTeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurTeamVC.swift; sourceTree = "<group>"; };
+		CE17FBBC210CDDF6007DFA0D /* teamViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamViewCell.swift; sourceTree = "<group>"; };
+		CE17FBBE210CF23C007DFA0D /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		CE86C83A210E352700B15CE3 /* CompetitionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsVC.swift; sourceTree = "<group>"; };
+		CE86C83C210E354600B15CE3 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		CE86C83E210E3AE500B15CE3 /* CompetitionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionViewCell.swift; sourceTree = "<group>"; };
 		CE885359210CC71800035DF6 /* Procom18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procom18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE88535C210CC71800035DF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE88535E210CC71800035DF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,8 @@
 		CE885363210CC71900035DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE885366210CC71900035DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE885368210CC71900035DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDB4C382111F9C2007D859A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEFC6CE0210E3DC100B2FDCD /* MoreViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467DD21FA788A943F618A109 /* Pods_Procom18.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		649195D50E9BA15C0842985A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8416C251CBDAF626DE644C81 /* Pods-Procom18.debug.xcconfig */,
+				625D2264128A381558C5590C /* Pods-Procom18.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC7EAC0A2125EA05BAAB788C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				567CEA13C3E1EE0520B0F076 /* Pods_Procom18.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE885350210CC71700035DF6 = {
 			isa = PBXGroup;
 			children = (
 				CE88535B210CC71800035DF6 /* Procom18 */,
 				CE88535A210CC71800035DF6 /* Products */,
+				649195D50E9BA15C0842985A /* Pods */,
+				AC7EAC0A2125EA05BAAB788C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				CE88535C210CC71800035DF6 /* AppDelegate.swift */,
+				CE17FBBA210CDB43007DFA0D /* OurTeamVC.swift */,
 				CE88535E210CC71800035DF6 /* ViewController.swift */,
 				CE885360210CC71900035DF6 /* Main.storyboard */,
 				CE885363210CC71900035DF6 /* Assets.xcassets */,
 				CE885365210CC71900035DF6 /* LaunchScreen.storyboard */,
 				CE885368210CC71900035DF6 /* Info.plist */,
+				CEDB4C382111F9C2007D859A /* GoogleService-Info.plist */,
+				CE17FBBC210CDDF6007DFA0D /* teamViewCell.swift */,
+				CE17FBBE210CF23C007DFA0D /* ContactUsVC.swift */,
+				CE86C83A210E352700B15CE3 /* CompetitionsVC.swift */,
+				CE86C83C210E354600B15CE3 /* MoreVC.swift */,
+				CE86C83E210E3AE500B15CE3 /* CompetitionViewCell.swift */,
+				CEFC6CE0210E3DC100B2FDCD /* MoreViewCell.swift */,
 			);
 			path = Procom18;
 			sourceTree = "<group>";
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE88536B210CC71900035DF6 /* Build configuration list for PBXNativeTarget "Procom18" */;
 			buildPhases = (
+				7DCB1BF9B3C960B6371447BD /* [CP] Check Pods Manifest.lock */,
 				CE885355210CC71800035DF6 /* Sources */,
 				CE885356210CC71800035DF6 /* Frameworks */,
 				CE885357210CC71800035DF6 /* Resources */,
+				65E74D19D6BF94C886CECAF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE885367210CC71900035DF6 /* LaunchScreen.storyboard in Resources */,
+				CEDB4C392111F9C3007D859A /* GoogleService-Info.plist in Resources */,
 				CE885364210CC71900035DF6 /* Assets.xcassets in Resources */,
 				CE885362210CC71900035DF6 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +182,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65E74D19D6BF94C886CECAF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Procom18/Pods-Procom18-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Procom18/Pods-Procom18-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DCB1BF9B3C960B6371447BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Procom18-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE885355210CC71800035DF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE86C83B210E352700B15CE3 /* CompetitionsVC.swift in Sources */,
+				CEFC6CE1210E3DC100B2FDCD /* MoreViewCell.swift in Sources */,
+				CE17FBBB210CDB43007DFA0D /* OurTeamVC.swift in Sources */,
+				CE86C83F210E3AE500B15CE3 /* CompetitionViewCell.swift in Sources */,
 				CE88535F210CC71800035DF6 /* ViewController.swift in Sources */,
+				CE86C83D210E354600B15CE3 /* MoreVC.swift in Sources */,
 				CE88535D210CC71800035DF6 /* AppDelegate.swift in Sources */,
+				CE17FBBD210CDDF6007DFA0D /* teamViewCell.swift in Sources */,
+				CE17FBBF210CF23C007DFA0D /* ContactUsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +375,7 @@
 		};
 		CE88536C210CC71900035DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8416C251CBDAF626DE644C81 /* Pods-Procom18.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +390,7 @@
 		};
 		CE88536D210CC71900035DF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625D2264128A381558C5590C /* Pods-Procom18.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

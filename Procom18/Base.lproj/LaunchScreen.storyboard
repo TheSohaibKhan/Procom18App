@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +17,65 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headerBg" translatesAutoresizingMaskIntoConstraints="NO" id="9v8-p2-HzS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fastLogo_01" translatesAutoresizingMaskIntoConstraints="NO" id="6BD-9w-FDT">
+                                <rect key="frame" x="112" y="105" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="bjc-pa-4rD"/>
+                                    <constraint firstAttribute="width" constant="150" id="pOH-XU-uWY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="procomLogo_03" translatesAutoresizingMaskIntoConstraints="NO" id="erc-2s-8xy">
+                                <rect key="frame" x="112" y="368" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="PgV-yC-YW5"/>
+                                    <constraint firstAttribute="height" constant="150" id="chP-dp-JFm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bD-M5-woX">
+                                <rect key="frame" x="164" y="300" width="48" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ProCom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4J-cb-t1i">
+                                <rect key="frame" x="152" y="558" width="71" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4bD-M5-woX" firstAttribute="top" secondItem="6BD-9w-FDT" secondAttribute="bottom" constant="45" id="Dto-tN-EfJ"/>
+                            <constraint firstItem="9v8-p2-HzS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ExJ-sj-6A9"/>
+                            <constraint firstItem="4bD-M5-woX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ivn-c5-fS5"/>
+                            <constraint firstItem="9v8-p2-HzS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="NG0-ds-YIP"/>
+                            <constraint firstItem="9v8-p2-HzS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="UuK-8F-6Ql"/>
+                            <constraint firstItem="e4J-cb-t1i" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UvR-Em-RfU"/>
+                            <constraint firstItem="erc-2s-8xy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="d8g-Ez-Qa7"/>
+                            <constraint firstItem="6BD-9w-FDT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="85" id="qQI-5p-Fxm"/>
+                            <constraint firstItem="erc-2s-8xy" firstAttribute="top" secondItem="4bD-M5-woX" secondAttribute="bottom" constant="44" id="qjJ-fw-OvP"/>
+                            <constraint firstItem="9v8-p2-HzS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rfN-h3-Qov"/>
+                            <constraint firstItem="9v8-p2-HzS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t5a-ur-cZj"/>
+                            <constraint firstItem="6BD-9w-FDT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vg2-dC-8FV"/>
+                            <constraint firstItem="e4J-cb-t1i" firstAttribute="top" secondItem="erc-2s-8xy" secondAttribute="bottom" constant="40" id="wtZ-Qr-6wF"/>
+                            <constraint firstItem="9v8-p2-HzS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yVh-4t-I10"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="21.600000000000001" y="328.78560719640183"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="fastLogo_01" width="148" height="118"/>
+        <image name="headerBg" width="1600" height="772"/>
+        <image name="procomLogo_03" width="1021" height="1647"/>
+    </resources>
 </document>
