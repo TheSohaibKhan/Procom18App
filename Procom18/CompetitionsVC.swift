@@ -22,22 +22,18 @@ class CompetitionsVC: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
         self.ref = Database.database().reference()
         refHandle = ref.child("Competitions").observe(.value, with: { (snapshot) in
         let data = snapshot.value as! [String]
         for i in 0...data.count-1 {
             self.competitions.append("\(data[i])")
         }
-//            print(self.competitions)
             self.tableView.reloadData()
         })
         
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        self.tableView.register(CompetitionViewCell.self, forCellReuseIdentifier: "competitionCell")
         
     }
     
@@ -54,11 +50,23 @@ class CompetitionsVC: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        let cell = self.tableView.dequeueReusableCell(withIdentifier: "competitionCell", for: indexPath) as! CompetitionViewCell
-      //  print(competitions)
-        
-            cell.competitionNameLabel.text = competitions[indexPath.row]
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "competitionCell", for: indexPath)
+        cell.textLabel?.adjustsFontSizeToFitWidth = true
+        cell.textLabel?.textColor = #colorLiteral(red: 0.1392937005, green: 0.4068886936, blue: 0.559953928, alpha: 1)
+        cell.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        cell.textLabel?.text = competitions[indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        if let cell = tableView.cellForRow(at: indexPath) {
+            cell.accessoryType = .none
+        }
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let cell = tableView.cellForRow(at: indexPath) {
+            cell.accessoryType = .checkmark
+        }
     }
     
 }
